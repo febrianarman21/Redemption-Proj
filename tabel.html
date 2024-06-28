@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arman Febrian">
+    <meta name="keywords" content="HTML, belajar, head, css, js, javascript, latihan">
+    <meta name="description" content="belajar menampilkan tabel dalam sebuah halaman web">
+    <title>Page Table</title>
+    <link rel="icon" href="Fajar.PNG">
+</head>
+<body>
+    <div id="judul" style="font-family: arial; text-align: center;">
+        <h1>Belajar Menampilkan Tabel</h1>
+        <hr style="border: 2px">
+    </div>
+    <div id="content" style="text-align: center; font-family: Arial;">
+        <h2 style="text-align: center;">Tabel Identitas</h2>
+        <table style="border: 1.7px solid black; text-align: center;">
+            <colgroup>
+                <col span="2" style="background-color: rgba(177, 228, 255, 0.381);" padding="12px">
+                <col span="2" style="background-color: rgba(68, 158, 238, 0.279);">
+                <col span="1" style="background-color: rgba(222, 255, 155, 0.16);">
+            </colgroup>
+            <thead style="border: 1px;">
+                <tr>
+                    <th rowspan="2">Nomor</th>
+                    <th rowspan="2">Nama</th>
+                    <th colspan="2">TTgL</th>
+                    <th rowspan="2">Alamat</th>
+                </tr>
+                <tr>
+                    <th>Tempat Lahir</th>
+                    <th>Tgl Lahir</th>
+                </tr>
+            </thead>
+            <br>
+            <tbody style="text-align: left;">
+                <tr>
+                    <td>01</td>
+                    <td>Arman Febrian F</td>
+                    <td>Garut</td>
+                    <td>21 Februari 1993</td>
+                    <td>Kp. Ladatdaeu Ds. Hegarsari Kec. Kadungora Kab. Garut</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Kahfia Patta Ridzillah</td>
+                    <td>Garut</td>
+                    <td>31 Oktober 1999</td>
+                    <td>Kp. Ladatdaeu Ds. Hegarsari Kec. Kadungora Kab. Garut</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

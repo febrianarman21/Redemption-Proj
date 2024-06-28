@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Fajar.PNG">
+    <title>Halaman Semantic</title>
+    <style>
+        header {
+            background-color: rgba(67, 73, 74, 0.34);
+            padding: 10px;
+            font-family: arial;
+            text-align: center;
+            font-size: 16px;
+        }
+        nav {
+            background-color: whitesmoke;
+            text-align: justify;
+            font-size: 12px;
+            font-family: arial;
+        }
+            nav ul {
+                list-style-type: none;
+                overflow: hidden;
+            }
+            nav li {
+                float: left;
+            }
+            nav li a {
+                display: block;
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+            }
+            nav li a:hover {
+                background-color: rgba(0, 42, 255, 0.237);
+                font-weight: bold;
+            }
+        article {
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            width: 100%;
+            background-color: whitesmoke;
+        }
+        footer {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1px;
+            text-align: center;
+        }
+        footer time {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h1>Halaman Web Semantic</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#content">Artikel</a></li>
+            <li><a href="#author">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="content">
+            <article>
+                <h1>Belajar HTML</h1>
+                <p>Isi Konten Belajar HTML</p>
+            </article>
+            <article>
+                <h1>Belajar CSS</h1>
+                <p>Isi Konten Belajar CSS</p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <p id="author">Powered by Arman Febrian F <time datetime="2024">2024</time></p>
+    </footer>
+</body>
+</html>
