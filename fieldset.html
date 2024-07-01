@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+    <link rel="icon" href="Fajar.PNG">
+    <style>
+        body {
+            font-family: arial;
+        }
+        #pow {
+            padding: 1%;
+            border-style: none;
+            text-align: center;
+        }
+        time {
+            font-weight: bold;
+        }
+        nav {
+            background-color: wheat;
+            text-align: center;
+        }
+            nav ul {
+                list-style-type: none;
+                overflow: hidden;
+            }
+                nav li {
+                    float: left;
+                    display: block;
+                    margin-right: 15px;
+                    padding: 1%;
+                }
+        #loginbtn img{
+            width: 50px;
+            height: 1%;
+        }
+        form {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1>Fieldset</h1>
+            <p>Mengkapsulasi Form</p>
+        </header>
+    </div>
+    <hr>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Next Proj</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+        <main>
+            <p id="opening_desc">saat ini saya akan menampilkan form input menggunakan fitur FIELDSET, untuk mengkapsulasi formulir didalam halaman ini<br>
+            berikut adalah form nya</p> 
+            <hr>
+            <div id="form">
+                <form action="">
+                    <div id="id">
+                        <fieldset>
+                            <legend id="identitas">Identitas</legend>
+                                <label for="name-d">Nama Depan</label><br>
+                                <input type="text" name="nama-dpn" id="name-d"><br><br>
+                                <label for="name-b">Nama Belakang</label><br>
+                                <input type="text" name="nama-blkg" id="name-b"><br><br>
+                                <label for="dob">Tanggal Lahir</label><br>
+                                <input type="date" name="ttgl" id="dob" value="2000-01-01"><br><br>
+
+                        </fieldset>
+                        <fieldset>
+                            <legend id="group_alamat">Alamat</legend>
+                                <label for="adress">Kota Domisili</label><br>
+                                <input type="text" name="alamat" id="alamat" list="kota">
+                                    <datalist id="kota">
+                                        <option value="Cilegon">Cilegon</option>
+                                        <option value="Serang">Serang</option>
+                                        <option value="Lebak">Lebak</option>
+                                        <option value="Pandeglang">Pandeglang</option>
+                                        <option value="Tangerang Selatan">Tangerang Selatan</option>
+                                        <option value="Kab. Tangerang">Kab. Tangerang</option>
+                                        <option value="Jakarta Pusat">Jakarta Pusat</option>
+                                        <option value="Jakarta Utara">Jakarta Utara</option>
+                                        <option value="Jakarta Timur">Jakarta Timur</option>
+                                        <option value="Jakarta Selatan">Jakarta Selatan</option>
+                                        <option value="Jakarta Barat">Jakarta Barat</option>
+                                        <option value="Depok">Depok</option>
+                                        <option value="Bogor">Bogor</option>
+                                        <option value="Bekasi">Bekasi</option>
+                                        <option value="Cianjur">Cianjur</option>
+                                        <option value="Sukabumi">Sukabumi</option>
+                                        <option value="Karawang">Karawang</option>
+                                        <option value="Purwakarta">Purwakarta</option>
+                                        <option value="Subang">Subang</option>
+                                        <option value="Kab. Bandung Barat">Kab. Bandung Barat</option>
+                                        <option value="Cimahi">Cimahi</option>
+                                        <option value="Kota Bandung">Kota Bandung</option>
+                                        <option value="Kab. Bandung">Kab. Bandung</option>
+                                        <option value="Sumedang">Sumedang</option>
+                                        <option value="Garut">Garut</option>
+                                        <option value="Tasikmalaya">Tasikmalaya</option>
+                                        <option value="Ciamis">Ciamis</option>
+                                        <option value="Banjar">Banjar</option>
+                                        <option value="Pangandaran">Pangandaran</option>
+                                        <option value="Cirebon">Cirebon</option>
+                                        <option value="Kuningan">Kuningan</option>
+                                        <option value="Majalengka">Majalengka</option>
+                                        <option value="Indramayu">Indramayu</option>
+                                    </datalist>
+                            <br><br>
+                        </fieldset>
+                        <button type="submit">Simpan</button><button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="pow">
+                Powered by Arman Febrian Fajari <time datetim="2024">@ 2024</time> 
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

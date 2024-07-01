@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Select</title>
+    <link rel="icon" href="Fajar.PNG">
+    <style>
+        body {
+            font-family: arial;
+        }
+        #pow {
+            padding: 1%;
+            border-style: none;
+            text-align: center;
+        }
+        time {
+            font-weight: bold;
+        }
+        nav {
+            background-color: wheat;
+            text-align: center;
+        }
+            nav ul {
+                list-style-type: none;
+                overflow: hidden;
+            }
+                nav li {
+                    float: left;
+                    display: block;
+                    margin-right: 15px;
+                    padding: 1%;
+                }
+        #loginbtn img{
+            width: 50px;
+            height: 1%;
+        }
+        form {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1>Select</h1>
+            <p>Biasanya dipake buat milih kota</p>
+        </header>
+    </div>
+    <hr>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Next Proj</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+        <main>
+            <p id="opening_desc">saat ini saya akan menampilkan form input menggunakan fitur SELECT dalam halaman ini<br>
+            berikut adalah form nya</p> 
+            <hr>
+            <div id="form">
+                <form action="">
+                    <div id="id">
+                        <label for="name-d">Nama Depan</label><br>
+                        <input type="text" name="nama-dpn" id="name-d"><br><br>
+                        <label for="name-b">Nama Belakang</label><br>
+                        <input type="text" name="nama-blkg" id="name-b"><br><br>
+                        <label for="dob">Tanggal Lahir</label><br>
+                        <input type="date" name="ttgl" id="dob" value="2000-01-01"><br><br>
+                        <label for="adress">Kota Domisili</label><br>
+                        <select name="alamat" id="adress">
+                            <option value="none" selected>-</option>
+                                <optgroup label="Banten">
+                                    <option value="Tangerang Selatan">Tangerang Selatan</option>
+                                    <option value="Kab. Tangerang">Kab. Tangerang</option>
+                                    <option value="Kota Serang">Kota Serang</option>
+                                    <option value="Kab. Serang">Kab. Serang</option>
+                                    <option value="Cilegon">Cilegon</option>
+                                    <option value="Pandeglang">Pandeglang</option>
+                                    <option value="Lebak">Lebak</option>
+                                </optgroup>
+                                <optgroup label="DKI Jakarta">
+                                    <option value="Jakarta Pusat">Jakarta Pusat</option>
+                                    <option value="Jakrta Utara">Jakrata Utara</option>
+                                    <option value="Jakrta Timur">Jakarta Timur</option>
+                                    <option value="Jakarta Selatan">Jakarta Selatan</option>
+                                    <option value="Jakrta Barat">Jakarta Barat</option>
+                                </optgroup>
+                                <optgroup label="Jawa Barat">
+                                    <option value="Cirebon">Cirebon</option>
+                                    <option value="Cianjur">Cianjur</option>
+                                    <option value="Ciamis">Ciamis</option>
+                                    <option value="Bogor">Bogor</option>
+                                    <option value="Bandung">Bandung</option>
+                                    <option value="Garut">Garut</option>
+                                    <option value="Sumedang">Sumedang</option>
+                                    <option value="Subang">Subang</option>
+                                    <option value="Karawang">Karawang</option>
+                                    <option value="Majalengka">Majalengka</option>
+                                    <option value="Kuningan">Kuningan</option>
+                                    <option value="Cimahi">Cimahi</option>
+                                    <option value="Tasikmalaya">Tasikmalaya</option>
+                                    <option value="Banjar">Banjar</option>
+                                    <option value="Pangandaran">Pangandaran</option>
+                                    <option value="Depok">Depok</option>
+                                    <option value="Bekasi">Bekasi</option>
+                                    <option value="Sukabumi">Sukabumi</option>
+                                    <option value="Indramayu">Indramayu</option>
+                                </optgroup>
+                                <optgroup label="Jawa Tengah">
+                                    <option value="Semarang">Semarang</option>
+                                    <option value="Solo">Solo</option>
+                                </optgroup>
+                                <optgroup label="Jawa Timur">
+                                    <option value="Surabaya">Surabaya</option>
+                                    <option value="Malang">Malang</option>
+                                    <option value="Sidoarjo">Sidoarjo</option>
+                                    <option value="Banyuwangi">Banyuwangi</option>
+                                    <option value="Pasuruan">Pasuruan</option>
+                                    <option value="Kediri">Kediri</option>
+                                </optgroup>
+                        </select><br><br>
+                        <button type="submit">Simpan</button><button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="pow">
+                Powered by Arman Febrian Fajari <time datetim="2024">@ 2024</time> 
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

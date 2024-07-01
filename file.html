@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Form</title>
+    <link rel="icon" href="Fajar.PNG">
+    <style>
+        body {
+            font-family: arial;
+        }
+        time {
+            font-weight: bold;
+        }
+        #pow {
+            padding: 1%;
+            border-style: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Next Proj</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="header">
+        <header>
+            <h1>Halaman Upload File</h1>
+        </header>
+    </div>
+    <hr>
+    <div id="content">
+        <main>
+            <p id="opening_desc">saat ini saya akan menampilkan form input File dalam halaman ini<br>
+            berikut adalah form nya</p> 
+            <div id="form">
+                <form action="file-recieve.html" method="post" enctype="multipart/form-data">
+                    <label for="fileipt"> Upload File mu disini</label><br><br>
+                    <input type="file" name="fileinput" id="fileipt">
+                    <br><br>
+                    <input type="submit">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="pow">
+                Powered by Arman Febrian Fajari <time datetim="2024">@ 2024</time> 
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

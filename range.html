@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Range</title>
+    <link rel="icon" href="Fajar.PNG">
+    <style>
+        body {
+            font-family: arial;
+        }
+        time {
+            font-weight: bold;
+        }
+        #pow {
+            padding: 1%;
+            border-style: none;
+            text-align: center;
+        }
+        nav {
+            background-color: wheat;
+            text-align: center;
+        }
+            nav ul {
+                list-style-type: none;
+                overflow: hidden;
+            }
+                nav li {
+                    float: left;
+                    display: block;
+                    margin-right: 15px;
+                    padding: 1%;
+                }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Next Proj</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="header">
+        <header>
+            <h1>Halaman Input Nilai dengan Metode Range</h1>
+        </header>
+    </div>
+    <hr>
+    <div id="content">
+        <main>
+            <p id="opening_desc">saat ini saya akan menampilkan form input menggunakan tipe "Input Range" berikut dengan input radio sebagai button dalam halaman ini<br>
+            berikut adalah form nya</p> 
+            <hr>
+            <div id="form">
+                <form action="">
+                    <div id="radmapel">
+                        <label for="mapel">Pilih Mata Pelajaran :</label><br>
+                        <input type="radio" name="mata-pelajaran" id="mapel" value="IPA">IPA <br>
+                        <input type="radio" name="mata-pelajaran" id="mapel" value="IPS">IPS <br>
+                        <input type="radio" name="mata-pelajaran" id="mapel" value="Matematika">Matematika <br>
+                        <input type="radio" name="mata-pelajaran" id="mapel" value="Geografi">Geografi <br>
+                        <input type="radio" name="mata-pelajaran" id="mapel" value="Fisika">Fisika <br><br><hr>
+                    </div>
+                    <label for="n_uji">Input Nilai Ujian</label><br>
+                    <input type="range" name="nilai-ujian" id="n_uji" value="5" step="5" min="0" max="100">
+                    <br><br>
+                    <input type="submit" value="Simpan">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="pow">
+                Powered by Arman Febrian Fajari <time datetim="2024">@ 2024</time> 
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
